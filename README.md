@@ -11,64 +11,65 @@
 Learn how to deploy and work with smart contracts on Camino network. Dive into different features and techniques employed in smart contracts. This repo will walk you through all of it and teach you how to build the travel industry of the future in simple terms.
 
 
-# STARTER DOMAIN
+# ⚡ STARTER DOMAIN ⚡
 
 ![Banner](https://github.com/juuroudojo/toolsReal/blob/main/images1/quickstart.png)
 
-- STEP 1: Install [Node.js](https://nodejs.org/en/download/) (version 14.x or higher). (If you don't have it already). Unless anything starts breaking this is enough. To check that node is installed correctly, run `node -v` in your terminal. If you see a version number, you are good to go.
+## STEP 1: 
 
-- STEP 2: When you have node installed, you can install Hardhat by running `npm install --save-dev hardhat`. This will install Hardhat in your project. To check that you are on the right track, run `npx hardhat` in your terminal. If everything is going smooth you'll see a list of commands.
+> Install [Node.js](https://nodejs.org/en/download/) (version 14.x or higher). (If you don't have it already). Unless anything starts breaking this is enough. To check that node is installed correctly, run `node -v` in your terminal. If you see a version number, you are good to go.
 
-- STEP 3: 
-### 1. > Clone the repo by running 
+## STEP 2: 
+
+> When you have node installed, you can install Hardhat by running `npm install --save-dev hardhat`. This will install Hardhat in your project. To check that you are on the right track, run `npx hardhat` in your terminal. If everything is going smooth you'll see a list of commands.
+
+## STEP 3: 
+
+1. > Clone the repo by running 
 
 ```
 git clone https://github.com/chain4travel/camino-builder.git
 ```
 
-### 2. > CD into the root directory by running
+2.  > CD into the root directory by running
 
 ```
 cd camino-builder
 
 ```
 
-### 3. > Install all the dependencies that are prepared for you in package.json by running
+3. > Install all the dependencies that are prepared for you in package.json by running
 
 ```
 npm install
 ```
 
+### And you are ready to go! 🚀
+
+Now you don't need to create your project from scratch. You can use the project available for you in the repo. Build you contracts by changing or making new files in contracts/, use the script presets in scripts/ to deploy them. Good luck! 
 
 
 ## Contents
 
-- [Requirements](#requirements)
 - [Deployed contracts](#deployed-interactable-contracts)
-- [Theory]()
+- [Theory](https://github.com/chain4travel/camino-builder/tree/c4t/theory)
 - [Start Building](#start-building)
 - [Testing](#testing)
 - [Learn More](#learn-more)
 - [Contact Us](#contact-us)
 
-## Requirements
+## ✳️ DECODE Preparation & Announcements
 
-Before you begin, you need to install the following tools:
-
-To run and interact with these projects, you will need:
-
-- [Node.js](https://nodejs.org/en/download/) (version 14.x or higher)
-- [npm](https://www.npmjs.com/get-npm) (usually bundled with Node.js)
-- [Hardhat](https://hardhat.org/getting-started/#overview) development environment
-- [Camino Wallet](https://suite.camino.network/login/) (KYC-Verified)
+- While in many cases you can use almost any wallet, a big part of functionality requires you to have a Camino Wallet. You can create one [here](https://suite.camino.network/login/). Hackathon participants are asked to pass a KYC-verfication process in advance, so that it doesn't slow you down during your building process.
 
 
 > 🚩 NOTES: 
-- After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup) in each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
+- After cloning the repo - the only setup you need to perform is [setting up .env](https://github.com/chain4travel/camino-builder/setup). It is unique for each subdir! Hardhat won't be able to pull from .env that is located in the root directory!
 - When compiling smart contracts for Columbus testnet with Remix IDE, don't forget to set the EVM version as 'istanbul'.
 (Default is 'shangai'). Otherwise the contract wouldn't compile.
 
-
+# 🌑 BUILDER DOMAIN 🌑
+![Explore](https://github.com/juuroudojo/toolsReal/blob/main/images1/explorer.png)
 
 ## 📜 Start Building
  - 🍋  [Create your first NFT](https://github.com/chain4travel/camino-builder/tree/c4t/nft)
